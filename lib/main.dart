@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:sau_mukratha_app2/views/splash_screen_ui.dart';
+import 'package:sau_mukratha_app/views/splash_screen_ui.dart';
 
 void main() {
   runApp(MukrathaSauApp());
