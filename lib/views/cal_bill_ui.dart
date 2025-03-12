@@ -1,7 +1,11 @@
 import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
+<<<<<<< HEAD
 import 'show_bill_ui.dart';  // เพิ่มการนำเข้า ShowBillUI
+=======
+import 'show_bill_ui.dart'; // อย่าลืม import หน้า ShowBillUI
+>>>>>>> 335f90f90a9f6fc6c8ace8253cd8cab2dedd8154
 
 class CalBillUI extends StatefulWidget {
   const CalBillUI({super.key});
@@ -96,6 +100,7 @@ class _CalBillUIState extends State<CalBillUI> {
       totalAmount = subtotal - discountAmount;
     });
 
+<<<<<<< HEAD
     // ไปยังหน้า ShowBillUI พร้อมส่งข้อมูลทั้งหมดไป
     Navigator.push(
       context,
@@ -107,6 +112,13 @@ class _CalBillUIState extends State<CalBillUI> {
           children: children.toInt(),
           discount: discount,
         ),
+=======
+    // ไปยังหน้า ShowBillUI พร้อมส่ง totalAmount ไป
+    Navigator.push(
+      context,
+      MaterialPageRoute(
+        builder: (context) => ShowBillUI(totalAmount: totalAmount),
+>>>>>>> 335f90f90a9f6fc6c8ace8253cd8cab2dedd8154
       ),
     );
   }
