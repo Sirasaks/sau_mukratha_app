@@ -1,4 +1,4 @@
-# sau_mukratha_app2
+# sau_mukratha_app
 
 A new Flutter project.
 
